@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project 3</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style8.css" rel="stylesheet">
+	<link href="css/nav8.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="#">
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+        <div class="nav-outer">
+        <div class="nav-wrap">
+          <div class="navigation">
+          	<div class="logo"><img src""></div>
+          	<div class='nav' nav-menu-style="yoga">
+          		<ul class="nav-menu">
+	          		<li><a href="#about" class="smoothScroll">About</a></li>
+	          	    <li><a href="#services" class="smoothScroll">Services</a></li>
+	          	    <li><a href="#folio" class="smoothScroll">Portfolio</a></li>
+	          		<li><a href="#contact" class="smoothScroll">Contact</a></li>
+	          		<li><a href="#" class="smoothScroll">Blog</a></li>	
+          		</ul>
+          	</div>
+          </div>
+        </div>
+        </div>
+	<div class="nav-clear"></div>
+		<div class="clearfix"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+
+		<div class="slide-wrap">
+           <section class="slider">
+
+
+           <div class="header-intro-text">
+           	  <h1><span class="highlight">Alex</span> Belinsky</h1>
+           	  <h2>Front-end Web Developer</h2>
+           	  <div class="button" id="button">See My Work</div>
+           </div>
+
+             <ul class="slider1">
+               <!-- <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image1.png"></li>
+               <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image2.png"></li>
+               <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image3.png"></li> -->
+               <li><img src="img/header-bg.png"></li>
+               <li><img src="img/header-bg2.png"></li>
+             </ul>
+
+           </section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="about"></a>
+<!--Start Banner Wrapper-->
+<div id="banner-wrapper">
+	<h1>Responsive Websites for Local Businesses</h1>
+	<div class="one-half">
+		<h3>Hello! Welcome.</h3>
+		<p>My name is Alex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula. Quisque rhoncus diam tincidunt eleifend fermentum. Praesent hendrerit mi eget justo molestie, ut facilisis nisi vestibulum. Sed a quam turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		 <p>Mauris condimentum, arcu quis porttitor gravida, est purus feugiat lectus, sed interdum dui nibh vitae ligula. Sed ligula nunc, aliquet vitae erat ut, pretium condimentum enim. Nulla at leo quis mi mattis maximus. Aenean nec lacus auctor, vulputate quam eu, volutpat quam. Nunc quam felis, lacinia a gravida ac, suscipit nec neque. Sed sit amet turpis lacinia, efficitur diam vel, elementum massa. Integer nisi diam, ornare tincidunt erat gravida, volutpat tincidunt mauris. Phasellus rutrum feugiat semper. Nam porttitor erat blandit quam rhoncus venenatis id id sem. Cras vel elit sed nisl suscipit viverra.</p>
+	</div>
+	<div class="one-half">
+		<h3>Sample Photo Here</h3>
+		<p><img class="floatright" src="http://unsplash.it/200/200" alt="Unsplash Image"></p>	
+	</div>
+	
+</div>
+<!-- End Banner Wrapper -->
+<div class="clearfix"></div>
+
+
+<!-- Start Parallax Section -->
+<a name="services">
+<section class="parallax-1">
+  <div class="parallax-inner">
+    <section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+  	<section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+    <section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+  </div>
+</section>
+<!-- End Parallax Section -->
+<div class="clearfix"></div>
+
+<!-- Start Banner Wrapper -->
+<a name="folio">
+<section class="left-col">
+	<h1>Heading Title</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium nibh ac ullamcorper ultricies. Suspendisse bibendum a nulla ac laoreet. Duis aliquet vehicula risus et aliquam. Ut rutrum arcu tempor viverra facilisis. Phasellus id magna imperdiet, pretium metus ac, rutrum odio. Praesent dapibus leo ut ligula feugiat, a condimentum nisi consequat. Cras faucibus pharetra arcu, sed blandit massa facilisis at. Nunc tincidunt turpis eget aliquet hendrerit. In et mi quam. Nulla pretium facilisis nunc vitae posuere. Duis dictum quam sed est dignissim commodo. Nullam luctus tellus massa, sollicitudin tempus velit blandit tempus. Integer convallis arcu nec placerat auctor. Cras commodo at augue vel ultrices. Sed augue elit, dictum et neque a, dignissim condimentum nisi. Vestibulum sed lorem at turpis sollicitudin eleifend.</p>
+
+		<p>Aliquam nec est nec lorem posuere luctus quis ut neque. Suspendisse congue, magna ac congue volutpat, dolor orci commodo dui, eu imperdiet odio neque eu leo. Nunc posuere, sem sed placerat dictum, velit ipsum gravida neque, quis vehicula augue augue sit amet ligula. Vivamus vitae iaculis felis. Curabitur malesuada mollis leo ac condimentum. Maecenas vitae feugiat dui, nec dictum felis. Nulla ultricies nibh vitae arcu eleifend lacinia. Pellentesque semper fringilla erat a ultricies. Fusce sodales vestibulum quam, eget consectetur sem aliquam vel.</p>
+
+		<p>Praesent quis tristique tortor. Aenean id metus turpis. Aenean scelerisque rhoncus turpis, sed aliquam dui eleifend eu. Phasellus vehicula ligula justo, vitae hendrerit tellus mollis et. Nunc volutpat urna sollicitudin pharetra maximus. Quisque ullamcorper, nibh at venenatis interdum, enim purus ullamcorper nulla, at maximus ante erat consequat lacus. Nulla ipsum nulla, ultrices quis ex vitae, tempor gravida turpis. Mauris rhoncus hendrerit nisl, non gravida quam viverra a. Praesent in augue non augue elementum tristique non et lorem. Maecenas ultricies semper pellentesque. Cras at est non turpis commodo tristique ut sit amet lacus. Fusce a vehicula tellus, ac pretium mauris. Suspendisse scelerisque eleifend odio a rutrum. Nulla suscipit, mi ut vulputate bibendum, magna sapien mollis urna, ut sollicitudin massa lacus vitae felis.</p>
+</section>
+<section class="sidebar">
+	<img src="https://www.w3newbie.com/wp-content/uploads/beach-building.jpg">
+</section>
+<!-- End Banner Wrapper -->
+<div class="clearfix"></div>
+<!-- Star Parallax Section -->
+<section class="parallax-2">
+  <div class="parallax-inner">
+    <section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+  	<section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+    <section class="one-third">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>	
+    </section>
+  </div>
+</section>
+<!-- End Parallax Section -->
+<div class="clearfix"></div>
+<!-- 
+<div id="banner-wrapper">
+	<h1>Full Width Heading Title Section</h1>
+	<section class="one-third">
+		<img src="png">
+		<h3>Heading Title</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>
+	</section>
+	<section class="one-third">
+		<img src="png">
+		<h3>Heading Title</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>
+	</section>
+	<section class="one-third">
+		<img src="png">
+		<h3>Heading Title</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus congue lectus, ut scelerisque ipsum pellentesque nec. Nulla bibendum nunc sit amet mauris varius vehicula.</p>
+	</section>
+</div>
+-->
+<div class="clearfix"></div>
+<a name="contact"></a>
+<footer>
+	<p class="contact-heading">contact</p>
+	    <div class="container">
+		<form action="/action_page.php">
+
+		    <label for="fname">Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+		    <label for="lname">Email</label>
+		    <input type="text" id="lname" name="email" placeholder="Your email address...">
+
+		    <label for="lname">Subject</label>
+		    <input type="text" id="lname" name="subject" placeholder="What you want to talk about...">
+
+		  
+		    <label for="subject"></label>
+		    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		    <input type="submit" value="Submit" id="button">
+
+		</form>
+    </div>	
+
+    <div>
+    <ul class="social">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+	</ul>
+    <p class="copyright">&copy; Copyright 2017</p>
+    </div>	
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script>
+    $(function() {
+ $('a').smoothScroll();
+    });
+</script>
+</body>
+</html>
